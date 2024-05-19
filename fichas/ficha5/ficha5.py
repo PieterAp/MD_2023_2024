@@ -68,7 +68,7 @@ a matriz da menor relacao de equivalencia que contem R
 
 """
 
-# %% Ex1
+#%% Ex1
 #a
 Mr=np.array([[1, 0, 1, 0],
              [1, 0, 1, 0],
@@ -125,12 +125,14 @@ Mtran = F_um(Mr + mpower(Mr,2) + mpower(Mr,3) + mpower(Mr,4))
 aux1 = Mr + np.eye(4)
 aux2 = aux1 + aux1.T
 Mequival = F_um(aux2 + mpower(aux2,2) + mpower(aux2,3) + mpower(aux2,4))
-
-
 # %%
 
 
 # %% Ex2
+#a
+
+
+
 #b 
 ver se na posicao 
 
